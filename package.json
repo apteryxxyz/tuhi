@@ -1,0 +1,8 @@
+{
+    "name": "tuhi",
+    "private": true,
+    "workspaces": [
+        "packages/*",
+        "packages/actions/*"
+    ]
+}

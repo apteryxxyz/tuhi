@@ -1,0 +1,31 @@
+[
+    "Does 9 + 10 = 21? ",
+    {
+        "name": "set",
+        "children": [
+            "number",
+            {
+                "name": "math",
+                "children": [
+                    "9+10"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "if",
+        "children": [
+            [
+                {
+                    "name": "get",
+                    "children": [
+                        "number"
+                    ]
+                },
+                "===21"
+            ],
+            "Yes, it does!",
+            "No, it does not!"
+        ]
+    }
+]

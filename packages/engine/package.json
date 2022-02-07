@@ -1,0 +1,35 @@
+{
+    "name": "@tuhi/engine",
+    "description": "Engine for Tuhi scripts",
+    "version": "0.0.1-alpha.0",
+    "private": false,
+    "license": "MIT",
+    "author": {
+        "name": "apteryxxyz",
+        "email": "kiaora@apteryx.xyz",
+        "url": "https://apteryx.xyz"
+    },
+    "main": "./lib/Engine.js",
+    "scripts": {
+        "release": "npm publish"
+    },
+    "keywords": [
+        "tuhi",
+        "script",
+        "engine",
+        "parser",
+        "executor"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/apteryxxyz/tuhi.git",
+        "directory": "packages/engine"
+    },
+    "bugs": {
+        "url": "https://github.com/apteryxxyz/tuhi/issues"
+    },
+    "dependencies": {
+        "@tuhi-actions/core": ">=0.0.0",
+        "lodash": "^4.17.21"
+    }
+}

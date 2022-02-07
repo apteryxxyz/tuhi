@@ -1,0 +1,14 @@
+# Node
+/node_modules/
+/packages/*/node_modules/
+/packages/actions/*/node_modules/
+
+# Packages
+/packages/actions/*/lib/upcoming/
+
+# Saves
+tuhi.save.tuhi
+tuhi.save.json
+
+# Misc
+/test/
