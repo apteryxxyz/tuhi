@@ -1,6 +1,6 @@
 # Tuhi
 
-Tuhi (to-he) is templating language, with the idea
+Tuhi (to-he) is a templating language, with the idea
 of adding logic to string templates.
 
 Tuhi is still is early development and may be unstable,
@@ -67,7 +67,7 @@ context.withEngine(engine); // Allow actions access to the engine
 const source1 = `Does 9 + 10 = 21? {set;number;{math;9+10}}`;
 const result1 = await engine.execute(context, source1); // Execute the script
 console.log(result1); // => Does 9 + 10 = 21?
-console.log(context.variables); // => { num: 19 };
+console.log(context.variables); // => { number: 19 };
 
 const source2 = `{if;{get;number}===21;Yes, it does!;No, it does not!}`;
 const result2 = await engine.execute(context, source2);
