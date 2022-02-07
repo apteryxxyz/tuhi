@@ -1,7 +1,7 @@
 {
     "name": "@tuhi-actions/core",
     "description": "Core set of actions required for executing Tuhi scripts",
-    "version": "0.0.1-alpha.0",
+    "version": "0.0.1-alpha.1",
     "private": false,
     "license": "MIT",
     "author": {
@@ -28,6 +28,6 @@
         "url": "https://github.com/apteryxxyz/tuhi/issues"
     },
     "dependencies": {
-        "@tuhi/engine": ">=0.0.0"
+        "@tuhi/engine": "<0.0.1-beta.0"
     }
 }

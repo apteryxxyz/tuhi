@@ -1,7 +1,7 @@
 {
     "name": "@tuhi/cli",
     "description": "Command line interface for executing Tuhi scripts from your terminal",
-    "version": "0.0.1-alpha.0",
+    "version": "0.0.1-alpha.1",
     "private": false,
     "license": "MIT",
     "author": {
@@ -32,8 +32,8 @@
         "url": "https://github.com/apteryxxyz/tuhi/issues"
     },
     "dependencies": {
-        "@tuhi-actions/core": ">=0.0.0",
-        "@tuhi/engine": ">=0.0.0",
+        "@tuhi-actions/core": "<0.0.1-beta.0",
+        "@tuhi/engine": "<0.0.1-beta.0",
         "commander": "^9.0.0"
     }
 }

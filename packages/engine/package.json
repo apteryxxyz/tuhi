@@ -1,7 +1,7 @@
 {
     "name": "@tuhi/engine",
     "description": "Engine for Tuhi scripts",
-    "version": "0.0.1-alpha.1",
+    "version": "0.0.1-alpha.2",
     "private": false,
     "license": "MIT",
     "author": {
@@ -29,7 +29,7 @@
         "url": "https://github.com/apteryxxyz/tuhi/issues"
     },
     "dependencies": {
-        "@tuhi-actions/core": ">=0.0.0",
+        "@tuhi-actions/core": "<0.0.1-beta.0",
         "lodash": "^4.17.21"
     }
 }
