@@ -47,7 +47,6 @@ class Engine {
 
         // Execute the statement
         const result = await this[_executeStatement](context, statement);
-        if (typeof result === 'string') context.pushBlock(source);
         return this[_cleanResult](context, '' + result);
     }
 
