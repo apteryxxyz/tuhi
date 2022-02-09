@@ -1,6 +1,6 @@
 'use strict';
 
-const { Statement } = require('@tuhi/engine/lib/Statement');
+const { Statement } = require('@tuhi/engine/lib/Action');
 const path = require('path');
 const fs = require('fs');
 const COMMANDS = {};

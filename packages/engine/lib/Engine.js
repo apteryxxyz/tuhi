@@ -2,7 +2,7 @@
 
 const CoreActions = require('@tuhi-actions/core');
 const Context = require('./Context');
-const { Statement, Action } = require('./Statement');
+const { Statement, Action } = require('./Action');
 const pkg = require('../package.json');
 
 const _executeStatement = Symbol('executeStatement');

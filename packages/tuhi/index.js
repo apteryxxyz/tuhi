@@ -1,8 +1,8 @@
 const Tuhi = {
     Engine: require('@tuhi/engine/lib/Engine'),
     Context: require('@tuhi/engine/lib/Context'),
-    Statement: require('@tuhi/engine/lib/Statement').Statement,
-    Action: require('@tuhi/engine/lib/Statement').Action,
+    Statement: require('@tuhi/engine/lib/Action').Statement,
+    Action: require('@tuhi/engine/lib/Action').Action,
 
     ActionHandler: require('@tuhi/engine/lib/actions/ActionHandler'),
     ActionBuilder: require('@tuhi/engine/lib/actions/ActionBuilder'),
